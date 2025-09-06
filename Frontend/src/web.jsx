@@ -1,6 +1,6 @@
 import './web.css'
 import Login from './login.jsx'
-import { useNavigate } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 
 function WebFrame() {
   const navigate =useNavigate();
@@ -14,7 +14,7 @@ function WebFrame() {
       <div className='web'>
         <h2 className='text'>Event Planner</h2>
         <p className='para'>
-          <a onClick={handleclick}>Login in</a>
+          <Link to="/login">Login in</Link>
           <a href="">About</a>
           <a href="">Contact</a>
         </p>
