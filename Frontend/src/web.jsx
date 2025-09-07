@@ -14,7 +14,7 @@ function WebFrame() {
       <div className='web'>
         <h2 className='text'>Event Planner</h2>
         <p className='para'>
-          <Link to="/login">Login in</Link>
+          <Link to="/Login">Login in</Link>
           <a href="">About</a>
           <a href="">Contact</a>
         </p>

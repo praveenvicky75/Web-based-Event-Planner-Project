@@ -17,6 +17,7 @@ import abc from './assets/abc.jpg'
 import sda from './assets/sda.jpg'
 import pa from './assets/pa.jpg'
 import monika from './assets/monika.jpg'
+import Login from './login.jsx'
 
 function App() {
   
@@ -45,6 +46,7 @@ function App() {
     }/>
     {/*dynamic hall page */}
     <Route path="/Hall/:slug" element={<Hall/>}/>
+    <Route path ="/login" element={<Login/>}/>
     </Routes>
     </>
   );
